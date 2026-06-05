@@ -1,0 +1,7 @@
+{
+  "bot_name": "AI-Assistant",
+  "log_file": "chat.log",
+  "history_file": "chat.history.json",
+  "max_history": 50,
+  "welcome_massage": "Привет! Я твой ИИ-помощник. Напиши 'выход' для завершения."
+}
