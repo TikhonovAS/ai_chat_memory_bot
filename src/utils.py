@@ -57,7 +57,7 @@ def log_action(message, log_file="chat.log"):
             os.makedirs(log_dir, exist_ok=True)
 
         # Открываем на ДОПИСАНИЕ ("a")
-        with open(log_file, "a", encoding="urf-8") as f:
+        with open(log_file, "a", encoding="utf-8") as f:
             timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
             f.write(f"[{timestamp}]{message}\n")
 
